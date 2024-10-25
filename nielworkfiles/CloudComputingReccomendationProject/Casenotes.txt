@@ -1,0 +1,12 @@
+Please log unaccounted for yet reasonable outcomes here:
+Size: International, Budget: Very High, Data Security needed: Medium. Can be either Iaas or on premesis [fixed]
+
+
+How this was made:
+
+First we worked upon the main.html file, focusing on getting the questions ready and ensuring the form was set up, then we created a JavaScript file to allow us to add functionality to the file, with us needing to get help to understand how to make a form with HTML and JavaScript.
+
+Each answer is set up to assign points to an array which contains the four weights to each decsison to execute, then compares them and returns the result, causing it to appear on the screen as a reccomendation.
+
+There are 3 functions in this code, with radio() getting the result from the raido buttons, Submit() comparing the answers to get the outcome which will be returned and displayed by sendResult(Result) where Result is the service we reccomend
+The reason we used weights is to ensure that the software can adapt to more situations with buisnesses, as the size variety of businesses make it impossible to tell where they are or what employees they have, therefore we widen the net to ensure that many businesses are able to use it efficiently.
