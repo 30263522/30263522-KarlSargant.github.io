@@ -1,0 +1,93 @@
+pseudocode
+User Story 1: As a user, I want to create a flashcard with a question and an answer so that I can access it in the dashboard. 
+Acceptance criteria: 
+
+When a flashcard is created, it should display as a card – just showing the question 
+
+User Story 2: As a user, I want to access the answer from the created question. 
+
+Acceptance criteria:  
+
+Should be able to click on a question card and it will display the answer 
+
+User Story 3: As a user, I want to delete a created flashcard 
+
+Acceptance criteria:  
+
+Should be able to delete individual cards 
+
+ 
+
+ 
+
+User Story 4: As a user, I want to edit a created flashcard, so I can update the information if it’s wrong 
+
+Acceptance criteria:  
+
+Should be able to edit individual cards 
+
+ 
+
+User Story 5: As a user, I want to see a progress bar to track my progress through the flashcards. 
+
+Acceptance criteria:  
+
+The application should display a progress bar at the top of the screen. 
+
+The progress bar should update as the user reviews each flashcard. 
+
+ 
+
+User Story 6: As a user, I want to be able to view flashcards one at a time and click them to reveal the answer. 
+
+Acceptance criteria:  
+
+The application should display one flashcard at a time. 
+
+The user should be able to click or tap on the flashcard to reveal the answer. 
+
+The user should be able to click or tap on the flashcard again to hide the answer. 
+
+ 
+
+User Story 7: As a user, I want to have a simple navigation system to cycle through the flashcards. 
+
+Acceptance criteria:  
+
+The application should provide buttons or arrows to allow the user to move to the previous or next flashcard. 
+
+The user should be able to navigate through the flashcards in a sequential order. 
+
+
+
+
+
+
+Constructor(){
+flashcard.name="question name"
+flashcard.answer="question answer"
+}
+
+for flashcard.name in flashcards[]
+{
+if flashcard.name== flashcards[x] then query("a flashcard with this question already exists, would you like to overwrite it?")
+	if answer == yes then overwrite
+	else then do nothing
+else then save
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

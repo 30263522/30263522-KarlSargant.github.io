@@ -1,0 +1,27 @@
+get current question number
+add or subtract 1 to the index depending on the current number
+replace current question with one for that index
+check current number and block either the previous or next button based on current index
+
+
+contentArray.myquestion.indexOf(document.getElementById("flashquestion"))
+
+
+
+
+
+How to set up a flashcard check
+Qname=question name
+Aname=answer name
+
+If Qname = contentArray[x].my_question then
+	prompt("This action will replace one of your questions, proceed?")
+	if answer = YES then
+		contentarray[x].my_question == Aname
+		load contentarray[x].my_question to question part and contentarray[x].my_answer to answer part
+		proceed as normal
+
+
+
+How to set up random flashcard selection
+on click: loops = 0

@@ -1,0 +1,49 @@
+User Story 1: As a user, I want to add new tasks to my to-do list with a due date and priority. 
+
+Acceptance criteria:  
+
+The user should be able to enter a task description, due date, and priority level. 
+
+The task should be added to the list and displayed in order of priority or due date. 
+
+ 
+
+User Story 2: As a user, I want to edit existing tasks. 
+
+Acceptance criteria:  
+
+The user should be able to click or tap on a task to edit it. 
+
+The user should be able to modify the task description, due date, and priority level. 
+
+The edited task should be updated in the list and visually reflect the changes. 
+
+ 
+
+User Story 3: As a user, I want to mark tasks as complete. 
+
+Acceptance criteria:  
+
+The user should be able to click or tap on a task to mark it as complete. 
+
+The completed task should be visually indicated as completed and moved to a separate section. 
+
+ 
+
+User Story 4: As a user, I want to delete tasks. 
+
+Acceptance criteria:  
+
+The user should be able to click or tap on a task to delete it. 
+
+The deleted task should be removed from the list. 
+
+ 
+
+User Story 5: As a user, I want to view my completed tasks. 
+
+Acceptance criteria:  
+
+The application should have a separate section to display completed tasks. 
+
+The user should be able to navigate between the active and completed tasks easily. 
