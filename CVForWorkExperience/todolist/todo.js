@@ -3,7 +3,7 @@ let listContainer = document.getElementById("todo_list");
 document.addEventListener("DOMContentLoaded", function () {
     showList();
 
-})
+}) // Useful for Ersatz Enterprise project
 
 
 

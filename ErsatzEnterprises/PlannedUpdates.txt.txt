@@ -1,0 +1,12 @@
+Product manager made using some of the ideas and methods from my work experience projects.
+12 stored, 4 per section.
+
+
+Psuedocode for bankcards:
+
+per display{
+Bankname:class. Bank Name here
+Bankinfo:class. Bank Info here
+Bankcost:class. Bank Cost here
+}
+arrayperdisplay(*3)[b1,b2,b3,b4]
