@@ -84,7 +84,7 @@ function divMaker(text) {
         else
             h2_answer.style.display = "none";
     })
-}
+} // Useful for Ersatz Enterprise project
 
 function removecard() {
     localStorage.clear();
@@ -136,7 +136,7 @@ function replaceQandA() {
     }
 
 
-}
+} // Useful for Ersatz Enterprise project
 
 function cardbefore() {
     try {
@@ -161,7 +161,7 @@ function cardbefore() {
         alert("A PICNIC error has occured, please ensure that you have a flashcard in this integer position")
     }
 
-}
+} // Useful for Ersatz Enterprise project
 
 function nextcard() {
     try {
@@ -186,7 +186,7 @@ function nextcard() {
         alert("A PICNIC error has occured, please ensure that you have a flashcard in this integer position")
     }
 
-}
+} // Useful for Ersatz Enterprise project
 
 function randomcard() {
     loops = 0
