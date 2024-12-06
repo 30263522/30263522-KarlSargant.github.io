@@ -1,0 +1,7 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+hmtl,body {height: 100%;}
+
+h2{padding-top: 2em;}
+table {border:1px solid pink; padding:2px;}
+th{border:2px solid green;}
+td{padding: 5px; border: 1px solid blue;}

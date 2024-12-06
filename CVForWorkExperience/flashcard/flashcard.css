@@ -1,136 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-    column-gap: 5em;
-}
-
-body {
-    font-size: 1rem;
-    background-color: #c7c4c4
-}
-
-button {
-    padding: 8px;
-    outline: none;
-    cursor: pointer;
-    border: 1px solid lightgray;
-    border: radius 5px;
-    background: whitesmoke;
-    width: 25%;
-}
-
-textarea {
-    outline: none;
-    cursor: pointer;
-    border: 1px solid lightgray;
-    border: radius 5px;
-    background: rgb(255, 255, 255);
-    width: 25%;
-}
-
-.column {
-    display: flex;
-    float: left;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-
-.column.middle {
-    width: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    border: black;
-    border-style: solid;
-    justify-content: center;
-    border-radius: 1em;
-}
-
-.column.middle::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-.card {
-    background-color: #504d4d;
-
-}
-
-@media screen and (max-width: 600px) {
-    * {
-        column-gap: 1em;
-    }
-
-    .column.middle {
-        width: 100%;
-        flex-direction:column;
-    }
-
-    .card {
-        width: 100%
-    }
-
-    .ul {
-        width: 100%;
-    }
-}
-
-.flashcards {
-    background-color: aliceblue;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
-    margin-top: 10px;
-    padding: 0 10px;
-    width: 325px;
-    height: 200px;
-    word-wrap: break-word;
-
-
-}
-
-.h2 {
-    font-size: 2.2em;
-    color: rgb(77, 75, 75)
-}
-
-ul {
-    background-color: pink;
-    overflow: hidden;
-    list-style-type: none;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position: sticky;
-    width: 100%;
-
-}
-
-li {
-    display: inline;
-    padding: 12px;
-}
-
-li :hover {
-    display: block;
-    padding: 8px;
-    background-color: green;
-}
-
-footer {
-    padding: 16px;
-    background-color: pink;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height:20px;
-}
+* {margin: 0; padding: 0; box-sizing: content-box; column-gap: 5em; flex: auto;}
+body {font-size: 1rem; background-color: #c7c4c4; height:100%;}
+button {padding: 8px; outline: none; cursor: pointer; border: 1px solid lightgray; border: radius 5px; background: whitesmoke; width: 25%;}
+textarea {outline: none; cursor: pointer; border: 1px solid lightgray; border: radius 5px; background: rgb(255, 255, 255); width: 25%;}
+.column {display: flex; float: left; justify-content: center; flex-wrap: wrap;}
+.column.middle {width: auto; padding-left: 16px; padding-right: 16px; border: black; border-style: solid; justify-content: center; border-radius: 1em;}
+.column.middle::after {content: ""; display: table; clear: both;}
+.card {background-color: #504d4d;}
+@media screen and (max-width: 600px) {* {column-gap: 1em;} .column.middle {width: 100%; flex-direction: column;} .card {width: 100%;} .ul {width: 100%;}}
+.flashcards {background-color: aliceblue; display: flex; justify-content: flex-start; align-items: flex-start; flex-wrap: wrap; width: 100%; margin: auto; margin-top: 10px; padding: 0 10px; width: 325px; height: 200px; word-wrap: break-word;}
+.h2 {font-size: 2.2em; color: rgb(77, 75, 75);}
+ul {background-color: pink; overflow: hidden; list-style-type: none; padding: 16px; display: flex; flex-direction: row; justify-content: space-evenly; position: sticky; width: 100%;}
+li {display: inline; padding: 12px;}
+li :hover {display: block; padding: 8px; background-color: green;}
+footer {padding: 16px; background-color: pink; display: block; position:absolute; bottom: 0; width: 100%; height: 20px; margin-bottom: 0;}
+html,body {height: 100%;}

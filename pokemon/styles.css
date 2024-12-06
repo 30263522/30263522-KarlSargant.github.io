@@ -1,8 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-hmtl,body {
-    height: 100%;
-}
+/*Main Body formatting*/
+*{margin:0; padding:0; box-sizing:border-box; /*background-image:linear-gradient(rgb(153, 148, 153),rgb(109, 101, 109))*/}
+html, body {height: 100%; border:2px, rgb(0, 0, 0) solid;}
+h1{font-size: 2.5em; font-variant:small-caps;background-image:none;}
+
+/*Navbar formatting*/
+.container-fluid{background-image: none;}
+.nav-item{background-image: linear-gradient(rgb(238, 141, 162),rgb(234,107,145));}
+.navbar-brand{background-image: none;}
+
+/*containers*/
+.container{display:flex;}

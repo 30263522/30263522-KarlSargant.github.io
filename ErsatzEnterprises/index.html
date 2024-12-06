@@ -14,5 +14,25 @@
     </div>
     <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 50px">Erzatz Enterprise (owned by Karl Sargant)</h1>
     <p> I am Karl Sargant, a student at BSDC for the app development course and this is my first public website.</p>
+
+    <div class="flexbox_container">
+        <form>
+            <label for="todo_input">Text</label><input type="text" id="todo_input">
+            <div name="select" >
+                <select name="todos" id="filterbank" class="filter_todo">
+                    <option value="all">All</option>
+                    <option value="done">Complete</option>
+                    <option value="doing">Incomplete</option>
+                </select>
+            </div>
+        </form>
+    
+        <div class="bank_container">
+            <ul class="bank_list" id="bank_list">
+                <li id="bank_list2"></li>
+            </ul>
+        </div>
+    </div>
 </body>
+<script src="ersatz.js"></script>
 </html>
