@@ -4,8 +4,8 @@ console.log("UwU")
 //###########################
 function Bank(name,description,image,cost) {
     this.name = name;
-    this.description = description;
     this.image = image;
+    this.description = description;
     this.cost = cost;
 }
 const bank1 = new Bank("Calpone Vaults","2.5%","America",3500)
@@ -19,36 +19,39 @@ const bank8 = new Bank("Bearbyte","3%","America",1987)
 const bank9 = new Bank("ExampleCoin","9%","America",4567)
 
 banklist=[bank1,bank2,bank3,bank4,bank5,bank6,bank7,bank8,bank9]
-for (let key = 0; key<banklist.length; key++) {
-    console.log(banklist[key])
-    const contain = document.getElementById("bank_container");
+for (let key = 0; key < banklist.length; key++) {
+  const contain = document.getElementById("bank_container");
 
-    if (contain) {
-      console.log(contain)
+  if (contain) {
       const row = document.createElement('tr');
 
       const nameCell = document.createElement('td');
-      nameCell.textContent = banklist[key].name
+      nameCell.textContent = banklist[key].name;
 
       const imgCell = document.createElement('td');
       const img = document.createElement('img');
       img.src = banklist[key].image;
       img.alt = banklist[key].name;
-      img.width=50
-      imgCell.append(img);
+      img.width = 200;
+      imgCell.appendChild(img);
 
-      const descCell = document.createElement('td')
-      descCell.textContent = banklist[key].description
+      const descCell = document.createElement('td');
+      descCell.textContent = banklist[key].description;
+
+      const costCell = document.createElement('td');
+      costCell.textContent = banklist[key].cost;
 
       row.appendChild(nameCell);
       row.appendChild(imgCell);
       row.appendChild(descCell);
+      row.appendChild(costCell);
 
       contain.appendChild(row);
-    } else {
-      console.error("container not found")
-    }
-    }
+  } else {
+      console.error("Container not found");
+  }
+}
+
 
 
 //###########################

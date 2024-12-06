@@ -6,20 +6,17 @@ body {
 
 /* Text*/
 p {
-	color: rgb(255, 255, 255);
 	margin-left: 20px;
 	font-family: 'Times New Roman', serif;
 }
 
 /* Main Titles*/
 h1 {
-	color: rgb(255,255,255);
 	margin-left: 20px;
 }
 
 /* Sub-Titles */
 h2 {
-	color: rgb(255,255,255);
 	margin-left: 20px;
 	font-family: 'Times New Roman', serif;
 }
@@ -67,3 +64,6 @@ li a:hover {background-color: #0B70A8;}
 		width: 100%
 	}
 }
+div.bank_container{height:12.5%}
+tr{background-color:rgb(146, 185, 172); width:30%;}
+th{}

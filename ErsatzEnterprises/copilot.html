@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./MainTheme.css">
+</head>
+<body>
+    <div class="header">
+        <a href="#Main" style="float:left;">Main</a>
+        <a href="#Product" style="float:middle;">Product</a>
+        <a href="mailto:ks4rgant@outlook.com" style="float:right;">Contact us</a>
+    </div>
+    <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 50px">Erzatz Enterprise (owned by Karl Sargant)</h1>
+    <p>I am Karl Sargant, a student at BSDC for the app development course and this is my first public website.</p>
+
+    <div class="flexbox_container">
+        <form>
+            <label for="todo_input">Text</label><input type="text" id="todo_input">
+            <div name="select" >
+                <select name="todos" id="filterbank" class="filter_todo">
+                    <option value="all">All</option>
+                    <option value="done">Complete</option>
+                    <option value="doing">Incomplete</option>
+                </select>
+            </div>
+        </form>
+    
+        <div class="bank_container">
+            <table class="bank_list" id="bank_list">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody id="bank_container">
+                    <!-- New rows will be added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="copilot.js"></script>
+</body>
+</html>
